@@ -1,0 +1,122 @@
+/**  styles **/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 110%;
+    padding: 4rem;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.mainBox {
+    box-shadow: 0.1rem 0.1rem 3rem 0.5rem grey;
+    padding: 0.5rem;
+}
+header {
+    background-image: url('../links/img/shattered-island.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+}
+h1 {
+    font-family: 'Bowlby One SC', cursive;
+}
+h2 {
+    color: #fff;
+    padding: 2rem 1rem 2rem 1rem;
+}
+.logo {
+    margin: 0 auto;
+}
+.logo p {
+    font-family: 'Bowlby One SC', cursive;
+    text-align: center;
+    color: #ff8e3f;
+    padding: 6rem 1rem 6rem 1rem;
+    line-height: 1;
+    font-size: 8vw;
+}
+aside {
+    position: fixed;
+    bottom: 1rem;
+    right: 0;
+    font-size: 2vw;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: #23282b;
+}
+aside a {
+    text-decoration: none;
+    color: #fff;
+}
+aside a:hover {
+    color: #ff8e3f;
+}
+nav, footer {
+    background-color: #23282b;
+    color: #fff;
+    font-size: 80%;
+}
+nav ul, footer ul {
+    list-style-type: none;
+    display: flex;
+    padding: 1rem;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 0rem 0.5rem 0rem 0rem;
+}
+a:hover {
+    color: #ff8e3f;
+}
+.first, .second, .third {
+    height: auto;
+    display: block;
+}
+.first {
+    background-color: #67818f;
+}
+.second {
+    background-color: #2e3940;
+}
+.third {
+    background-color: #67818f;
+}
+.iframe {
+    padding: 1rem 0rem 0rem 0rem;
+    height: 350px;
+    margin-bottom: -10px;
+}
+.first p, .second p, .third p {
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+video, audio {
+    padding: 1rem 0rem 1rem 0rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first ul, .second ul {
+    color: #fff;
+    list-style-type: none;
+    line-height: 2.5;
+    padding: 2rem;
+    text-align: center;
+    display: block;
+}
+
+/** mobile **/
+@media screen and (max-width: 720px) {
+    body, .mainBox {
+        padding: 0;
+    }
+    aside {
+        display: none;
+    }
+}
